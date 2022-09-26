@@ -38,7 +38,7 @@ class Mobil:
             print(f"Error! Kapasitas BBM atau Jenis Bahan Bakar belum di inputkan")
         else:
             print(f"Mengisi {self.getkapasitasBBM()} Liter")
-            print(f"Total Harga :  {self.getkapasitasBBM() * harga}")
+            print(f"Total Harga :  Rp{self.getkapasitasBBM() * harga}")
 
 if __name__ == "__main__":
     mobil1 = Mobil("Toyota", "Avanza")
