@@ -34,7 +34,7 @@ class Mobil:
         print(f"Kapasitas BBM   : {self.getkapasitasBBM()}")
   
     def isiBBM(self,harga):
-        if self.getjenisBahanBakar() is None and self.getkapasitasBBM() is None:
+        if self.getjenisBahanBakar() is None or self.getkapasitasBBM() is None:
             print(f"Error! Kapasitas BBM atau Jenis Bahan Bakar belum di inputkan")
         else:
             print(f"Mengisi {self.getkapasitasBBM()} Liter")
