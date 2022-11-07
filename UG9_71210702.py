@@ -20,7 +20,7 @@ class PriorityQueueSortedList:
                     x = self._data[i][1]
                     data = self._data[i][0]
                     ind = i
-            print("Data prioritas tertinggi: ", '(',data,',', x,')')
+            print(f"Data prioritas tertinggi: ('{data}', {x})")
         else:
             print("Priority Queue is Empty!")
 
