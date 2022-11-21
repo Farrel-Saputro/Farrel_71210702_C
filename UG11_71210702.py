@@ -75,7 +75,7 @@ class RakObat:
         print('='* 20, "List Obat",'='* 20)
         for item in self.map:
             if item is not None and item != "deleted":
-                print("Nama:", item[0][1],"<> Jenis : ",item[0][0])
+                print("Nama :", item[0][1],"<> Jenis :",item[0][0])
         print(f"{51*'='}")
 
 if __name__ == "__main__":
